@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+.container {
+  position: relative;
+  border-radius: 5px;
+  margin: 50px auto;
+  max-width: 900px;
+  height: 85vh;
+  background: linear-gradient(
+    0deg,
+    rgba(190, 98, 255, 1) 17%,
+    rgba(45, 203, 253, 1) 100%
+  );
+}
+
+.container form input {
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.container button {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #00d4ff;
+  color: #002e34;
+  border-radius: 10px;
+}
+
+.container button:hover {
+  color: #56eaff;
+  background-color: #0297a5;
+}
+
+.container table {
+  border: 1px #002e34;
+  border-radius: 5px;
+  width: 700px;
+  background-color: #efdbfa;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.container h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.container th {
+  color: #2a2a2a;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  border: 2px solid #000;
+}
+
+.container td {
+  font-size: 1.1rem;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+img {
+  position: absolute;
+  max-width: 50px;
+  display: block;
+  left: 180px;
+}
