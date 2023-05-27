@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-https://vercel.com/lucasdev9645/agenda-contato
+https://agenda-contato-eight.vercel.app/
 
 Agenda de contato é uma aplicação frontend web simples com intuito de colocar em prática conhecimentos obtidos em curso.
 
